@@ -19,6 +19,10 @@ export default defineConfig({
           __dirname,
           'src/us-population-density/index.html'
         ),
+        horizontalBarChart: resolve(
+          __dirname,
+          'src/horizontal-bar-chart/index.html'
+        ),
       },
     },
   },
