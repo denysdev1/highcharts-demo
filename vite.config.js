@@ -23,6 +23,7 @@ export default defineConfig({
           __dirname,
           'src/horizontal-bar-chart/index.html'
         ),
+        bubbleChart: resolve(__dirname, 'src/bubble-chart/index.html'),
       },
     },
   },
